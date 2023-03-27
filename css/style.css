@@ -68,27 +68,35 @@ header{
 h1{
     font-size: 36px;
     text-align: center;
-    padding: 35px 0;
+    padding-bottom: 35px;
     font-weight: 900;
 }
 
 .sub-title{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
 }
 .sub-title img{
     max-width: 100%;
-    width: 65%;
+    width: 75%;
 }
 .title-text{
-    width: 35%;
+    width: 45%;
     font-size: 18px;
+    text-align: left;
 }
 
 .title-text > .button{
     margin: 25px  0 ;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 
