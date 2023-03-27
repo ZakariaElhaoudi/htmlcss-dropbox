@@ -5,13 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 /* regole header */
 header{
-    height: 600px;
+    height: 800px;
     background-color: aqua;
 
 /* regole nav  */
@@ -104,7 +102,6 @@ h1{
 
 /* regole main  */
 .conteiner{
-    height: 800px;
     width: 60%;
     margin: 50px auto;
 }
@@ -113,16 +110,26 @@ h2{
 }
 .row{
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    
 }
 .col{
     padding: 15px 25px;
-    text-align: center;
+    text-align: left;
     border: solid black 1px;
-    line height: ;
+    width: calc(100%/3);
+    margin-top: 20px;
 }
+.col h6{
+    border-bottom: solid black 1px;
 }
-
+.col p, h3 {
+    padding: 10px;
+}
+.fa-user{
+    border-bottom: solid 1px black;
+    text-align: center;
+}
 
 /* regole footer  */
 
