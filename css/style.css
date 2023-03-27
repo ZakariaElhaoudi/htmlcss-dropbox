@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-ul{
-    list-style: none;
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-
 /* regole header */
 header{
     height: 600px;
@@ -54,12 +54,42 @@ header{
     cursor: pointer;
     font-size: 10px;
 }
-.button, .blue {
+.button.blue {
     background-color: #0061fe;
     color: white;
 }
+/* regole seconda parte header */
+.title{
+    padding-top: 150px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding: 35px 0;
+    font-weight: 900;
+}
 
+.sub-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sub-title img{
+    max-width: 100%;
+    width: 65%;
+}
+.title-text{
+    width: 35%;
+    font-size: 18px;
+}
 
+.title-text > .button{
+    margin: 25px  0 ;
+}
 
 
 
@@ -77,7 +107,7 @@ header{
     height: 800px;
     width: 60%;
     margin: auto;
-    border: solid black 4px;
+   
 }
 
 
