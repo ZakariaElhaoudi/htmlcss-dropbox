@@ -237,18 +237,75 @@ section:last-child h2 {
 /* regole design e marchi  */
 .row-design{
     display: flex;
+    width: calc(100%/3);
+    width: 100%;
 }
 .col-design{
     display: flex;
-    width: calc(100%/3);
-}
-.col-brand{
-    width: calc(100%2);
+    width: calc(100%/2);
     flex-wrap: wrap;
 }
-.col-brand{
-    background-color: sandybrown ;
-    color: white;
+
+.col-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+ 
+}
+.col-brand img{
+    width: 100%;
+    height:auto;
+
+}
+.green{
+    background-color:#bfddbb  ;
+}
+.green:hover{
+    border: #bfddbb solid 40px;
+}
+.brown{
+    background-color: #7a0c38;
+}
+.brown:hover{
+    border:40px solid  ;
+}
+.blue{
+    background-color: #39b6e7;
+}
+.blue:hover{
+    border: 40px solid #39b6e7;
+}
+.orange{
+    background-color: #ee5151;
+}
+.orange:hover{
+    border: 40px solid #ee5151;
+}
+.red{
+    background-color: #eb2e4a;
+}
+.red:hover{
+    border: 40px solid #eb2e4a;
+}
+.light-blue{
+    background-color: #cee1f0;
+}
+.light-blue:hover{
+    border: 40px solid #cee1f0;
+}
+.dark-blue{
+    background-color: #1232b1;
+}
+.dark-blue:hover{
+    border: 40px solid  #1232b1;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellow:hover{
+    border: 40px solid rgb(238, 238, 139);
 }
 /* regole footer  */
 
