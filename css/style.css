@@ -121,7 +121,7 @@ h2{
     text-align: left;
     border: solid black 1px;
     width: calc(100%/3);
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .header-col{
     border-bottom: solid black 1px;
@@ -165,22 +165,46 @@ h2{
 }
 
 .row-two{
-    margin-bottom: 15px 0;
+    margin-bottom: 40px 0;
     width: 100%;
     border: solid black 1px;
-    display: flex;
+    margin: 30px 0;
+    
 }
 .bottom-row{
-    border: solid black 1px;
+    border-bottom: solid black 1px;
     text-align: center;
     padding:10px;
     font-size: 16px;
-    margin-top:15px ;
 }
 
 .bottom-col{
-    
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
+
+
+.right-col{
+    width: 60%;
+    text-align: left;
+    padding-left: 15px;
+    padding: 20px ;
+}
+.right-col p {
+    font-size: 16px; 
+    padding: 20px 0;
+}
+
+.right-col h6 {
+    padding: 20px 0;
+
+}
+.left-col{
+    padding-right: 20px;
+}
+
+
 
 
 /* regole footer  */
