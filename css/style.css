@@ -47,7 +47,7 @@ header{
     opacity: 0.8;
     text-decoration: dotted;
 }
-.button{
+.navbar .button{
     padding: 5px 10px;
     text-align: center;
     cursor: pointer;
@@ -86,11 +86,10 @@ h1{
     font-size: 18px;
     text-align: left;
 }
-
-.title-text > .button{
+.button{
     margin: 25px  0 ;
     padding: 10px 15px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .fa-arrow-down{
@@ -111,25 +110,53 @@ h2{
 .row{
     display: flex;
     gap: 25px;
-    
 }
 .col{
-    padding: 15px 25px;
     text-align: left;
     border: solid black 1px;
     width: calc(100%/3);
     margin-top: 20px;
 }
-.col h6{
+.header-col{
     border-bottom: solid black 1px;
-}
-.col p, h3 {
-    padding: 10px;
-}
-.fa-user{
-    border-bottom: solid 1px black;
     text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
 }
+.col h3, li, h5, span{
+    padding: 25px 25px;
+}
+.col .month{
+    padding-top: 0 ;
+    color: grey;
+}
+
+.col ul, span {
+    list-style: none;
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.col .button{
+    margin: 0 20px;
+    font-size:15px;
+    padding: 10px 20px;
+}
+.border{
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-color: grey;
+    
+}
+.col h5{
+    margin-top: 30px;
+}
+.fa-check{
+    padding: 10px 5px;
+    color: blue ;
+}
+
+
 
 /* regole footer  */
 
