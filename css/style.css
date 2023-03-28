@@ -28,6 +28,7 @@ header{
     display: flex;
     list-style: none;
     text-align: center;
+    align-items: center;
 }
 .navbar li {
     margin-right:  15px;
@@ -91,7 +92,6 @@ h1{
     padding: 10px 15px;
     font-size: 20px;
 }
-
 .fa-arrow-down{
     font-size: 30px;
     margin-top: 20px;
@@ -105,8 +105,14 @@ h1{
     margin: 50px auto;
 }
 h2{
-    padding: 20px 20px;
+    padding: 30px 30px;
 }
+#input-contein {
+    display: inline;
+    padding: 0 20px ;
+}
+
+/* regole colonne */
 .row{
     display: flex;
     gap: 25px;
@@ -123,7 +129,7 @@ h2{
     padding: 10px 0;
     font-size: 16px;
 }
-.col h3, li, h5, span{
+.col > h3, li, h5, span{
     padding: 25px 25px;
 }
 .col .month{
@@ -138,6 +144,7 @@ h2{
 }
 
 .col .button{
+    width: 80%;
     margin: 0 20px;
     font-size:15px;
     padding: 10px 20px;
@@ -154,8 +161,26 @@ h2{
 .fa-check{
     padding: 10px 5px;
     color: blue ;
+    margin-left: 10px;
 }
 
+.row-two{
+    margin-bottom: 15px 0;
+    width: 100%;
+    border: solid black 1px;
+    display: flex;
+}
+.bottom-row{
+    border: solid black 1px;
+    text-align: center;
+    padding:10px;
+    font-size: 16px;
+    margin-top:15px ;
+}
+
+.bottom-col{
+    
+}
 
 
 /* regole footer  */
