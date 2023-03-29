@@ -23,6 +23,7 @@ header{
 /* regole nav  */
 .navbar{
     position: fixed;
+    z-index: 1000;
     width: 100%;
     background-color: white;
     height: 60px;
@@ -89,6 +90,7 @@ h1{
 }
 
 .sub-title{
+    position: static;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -97,11 +99,18 @@ h1{
 
 .sub-title img{
     max-width: 100%;
-    width: 75%;
+}
+
+.title-img{
+    position: relative;
+    top: 25px;
+    right: 0;
+    z-index: 0;
 }
 
 .title-text{
     width: 45%;
+    max-width: 100%;
     font-size: 18px;
     text-align: left;
 }
@@ -120,7 +129,7 @@ h1{
 /* regole main  */
 .conteiner{
     width: 60%;
-    margin: 50px auto;
+    margin: 150px auto;
 }
 
 h2{
@@ -332,7 +341,7 @@ section:last-child h2 {
 }
 
 .brown:hover{
-    border:20px solid #A52A2A;
+    border:20px solid #a52a2a;
 }
 
 .blue-card{
@@ -344,7 +353,7 @@ section:last-child h2 {
 }
 
 .orange{
-    background-color: #ee5151;
+    background-color: orangered;
 }
 
 .orange:hover{
@@ -352,7 +361,7 @@ section:last-child h2 {
 }
 
 .red{
-    background-color: #eb2e4a;
+    background-color: red;
 }
 
 .red:hover{
@@ -364,7 +373,7 @@ section:last-child h2 {
 }
 
 .light-blue:hover{
-    border: 20px solid #cee1f0;
+    border: 20px solid #ADD8E6;
 }
 
 .dark-blue{
