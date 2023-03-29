@@ -432,7 +432,7 @@ section:last-child h2 {
     font-size: 15px;
     color: black;
     position: absolute;
-    top: 45%;
+    top: 50px;
     right: 20px;
 }
 
@@ -441,13 +441,15 @@ section:last-child h2 {
 }
 
 .col-question span {
-    padding: 20px 0;
+    padding: 40px 0;
     font-weight: bold;   
 }
 
 .answer{
-    padding-top: 20px;
+    font-size: 18px;
+    padding-top: 50px;
     display: none;
+    transition: 2s ease-in-out;
 }
 
 .col-question:active .answer {
